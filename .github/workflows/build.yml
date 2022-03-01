@@ -103,6 +103,7 @@ jobs:
             if [ -d /qmk_firmware/.git ]; 
             then 
                 cd /qmk_firmware;
+                git checkout fix_artsey_build
                 git pull; 
             else 
                 git clone -b fix_artsey_build https://github.com/purple-rw/qmk_firmware.git /qmk_firmware/; 
