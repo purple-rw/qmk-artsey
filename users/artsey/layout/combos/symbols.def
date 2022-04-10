@@ -16,8 +16,8 @@ COMB(combo_slash,                    KC_SLSH,                       KEY_T1,     
 COMB(combo_exclamation,              ARTSEY_EXCLAMATION,                              KEY_T3,  KEY_B3)
 COMB(combo_single_quote,             KC_QUOT,                       KEY_T1,  KEY_B2,  KEY_B3)
 
-COMB(combo_period,                   KC_DOT,                        KNUM_T1, KNUM_B2)
-COMB(combo_comma,                    KC_COMM,                       KNUM_T1,          KNUM_B3)
+COMB(combo_period_num,               KC_DOT,                        KNUM_T1, KNUM_B2)
+COMB(combo_comma_num,                KC_COMM,                       KNUM_T1,          KNUM_B3)
 
 #ifdef ARTSEY_SIZE_40P
 #ifdef ARTSEY_HAND_LEFT
